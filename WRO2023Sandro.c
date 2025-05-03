@@ -85,22 +85,21 @@ changeSide(1);
 fuelAndReadCubes();
 	getBigShip();
 	moveBS();
+	getSmallShip();
+	sliderCloseDegree(13);
+	
 	moveToFourCubes();
 	getFourCubes();
 	getWhiteCube();
-	getSmallShip();
-	sliderCloseDegree(13);
-	//lela();
+	
+	
+	lela();
 	chayra();
-	mate();
-	//move_straight(20, 30);
-	/*repeat(forever){
-		readCube(0);
-		//displayBigTextLine(1, "%d", (int)(getColorName(CL)));
-		displayBigTextLine(1, colors[0]);
-}*/
-	//sleep(1000);
 	chagdeba();
 	mate();
 	move_straight(100, 40);
+	
+	
+	
+	
 }
