@@ -28,9 +28,8 @@ Here is a robot footage of completing 100% of tasks under 1 minute [Video](https
       
 
 * **Dachi Tchotashvili**    
-* **Levan Lolashvili**      
-* **Dea Nozadze**   
-* **Nika Gegenava**      
+* **Sandro Lomidze**      
+* **Giorgi Gagua**   
 
 ---
 
