@@ -9,10 +9,13 @@ The code is developed in the RobotC programming software by the WRO2023 team: Da
 [WRO2023Sandro.c](https://github.com/ChoteX/WRO2023/blob/f445360a4afdbb29490902a8307d50095bb8ffee/WRO2023Sandro.c) is the main file that is executed. All other files are for helper functions
 
 
-[Line_follow.c](https://github.com/ChoteX/WRO2023/blob/32d21c1d38d8107631275521d6d8848d51d79869/Line_Follow.c) is used to quickly retune the PID for the line follower during contests.
+[Line_follow.c](https://github.com/ChoteX/WRO2023/blob/32d21c1d38d8107631275521d6d8848d51d79869/Line_Follow.c) includes the line follower PID as well as all predetermined motor actions.
 
 
-[PID.c](https://github.com/ChoteX/WRO2023/blob/32d21c1d38d8107631275521d6d8848d51d79869/PID.c) consists of pre tuned PIDs for different motions
+[PID.c](https://github.com/ChoteX/WRO2023/blob/32d21c1d38d8107631275521d6d8848d51d79869/PID.c) consists of pretuned PIDs for different movements.
+
+
+[Chayra.c](https://github.com/ChoteX/WRO2023/blob/main/Chayra.c) uses logic gates to unload containers in ships according to the instructing blocks at the start.
 
 
 
