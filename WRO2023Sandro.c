@@ -67,29 +67,27 @@ task main()
 
 
 
-		colors[4]="white";
-	chayraOrder[4]='b';
+colors[4]="white";
+chayraOrder[4]='b';
 	//twoColors[0
  //PID_set(&dif_lf, 0.3, 0.0005, 0, 0, 40); //0.45 0.5
  //PID_set(&new_line_follower, 0.32, 0.00001, d0.1, 0.001, 35); //0.45 0.5
- PID_set(&new_line_follower, 0.35, 0.0003, 1.2, 0.5, 37); //0.45 0.5//old
-  //PID_set(&mate_line_follower, 0.35, 0.0003, 1.2, 0.5, 50); //0.45 0.5//old
- //PID_set(&new_line_follower, 0.01, 0, 0, 0.0003, 40); //0.45 0.5//old
- //PID_set(&new_line_follower, 0.35, 0.0005, 1.2, 0.5, 40); //0.45 0.5//old
- PID_set(&dif_lf, 0.15, 0.000005, 0.2, 0.5, 27);
- PID_set(&blue_lf, 0.35, 0.0005, 1.2, 0.5, 33);
- PID_set(&fast_line_follower, 0.6, 0, 0.18, 0.0003, 36);
+PID_set(&new_line_follower, 0.35, 0.0003, 1.2, 0.5, 37); //0.45 0.5//old
+ 
+PID_set(&dif_lf, 0.15, 0.000005, 0.2, 0.5, 27);
+PID_set(&blue_lf, 0.35, 0.0005, 1.2, 0.5, 33);
+PID_set(&fast_line_follower, 0.6, 0, 0.18, 0.0003, 36);
 twoColors[0]="green"; twoColors[1]="green"
 //new_move_on_line_dist(70,0,110);
 //
-  //changeSide(1);
-  fuelAndReadCubes();
+changeSide(1);
+fuelAndReadCubes();
 	moveBS();
 	moveToFourCubes();
 	getFourCubes();
 	getWhiteCube();
 	getSmallShip();
-	//sliderCloseDegree(13);
+	sliderCloseDegree(13);
 	//lela();
 	chayra();
 	mate();
