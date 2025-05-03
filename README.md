@@ -1,7 +1,6 @@
-# WRO2023
-Full code for WRO2023 robot
+# WRO2023 robot - Team Gagua (1:00)
 
-The code is developed in the RobotC programming software by the WRO2023
+The code is developed in the RobotC programming software
 
 
 see: [WRO-2023-Robomission-Senior](https://wro-association.org/wp-content/uploads/WRO-2023-RoboMission-Senior.pdf) for detailed description of tasks. 
