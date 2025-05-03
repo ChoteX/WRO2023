@@ -56,6 +56,7 @@ int fix[5];
 #include "GetFourCubes.c"
 #include "GetWhiteCube.c"
 #include "GetSmallShip.c"
+#include "GetBigship.c"
 #include "GetSmallShipToBlackSea.c"
 #include "DamatebitiFunqciebi2dgistvis.c"
 #include "park.c"
@@ -82,6 +83,7 @@ twoColors[0]="green"; twoColors[1]="green"
 //
 changeSide(1);
 fuelAndReadCubes();
+	getBigShip();
 	moveBS();
 	moveToFourCubes();
 	getFourCubes();
