@@ -1,6 +1,6 @@
 # WRO2023 robot - Team Gagua (1:00)
 
-## Robot assembly
+# Robot assembly
 ![Image](https://github.com/user-attachments/assets/e585d525-1a50-41e5-884c-67ad80b499d0)
 
 
