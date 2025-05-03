@@ -82,15 +82,10 @@ moveToFourCubes();
 getFourCubes();
 getWhiteCube();
 
-moveBS();
+getSmallShipToBlackSea();
 	
-lela();
 chayra();
-chagdeba();
 mate();
-move_straight(100, 40);
-	
-	
 	
 	
 }
