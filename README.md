@@ -20,5 +20,5 @@ see: [WRO-2023-Robomission-Senior](https://wro-association.org/wp-content/upload
 [Chayra.c](https://github.com/ChoteX/WRO2023/blob/main/Chayra.c) uses logic gates to unload containers in ships according to the special blocks at the start.
 
 
-Here is a video of a 100% score under 1 minute [Video](https://drive.google.com/file/d/1RDIKLe6V6kod-De64W6pJA_hkb4Kvsi-/view?usp=sharing)
+Here is a robot footage of completing 100% of tasks under 1 minute [Video](https://drive.google.com/file/d/1RDIKLe6V6kod-De64W6pJA_hkb4Kvsi-/view?usp=sharing)
 
