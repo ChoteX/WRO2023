@@ -48,7 +48,7 @@ int fix[5];
 #include "goodPID.c"
 #include "Chayra.c"
 #include "mari.c"
-//#include "chayraFunctions.c"
+#include "chayraFunctions.c"
 //chapters
 #include "FuelAndReadCubes.c"
 #include "MoveBS.c"
@@ -56,7 +56,7 @@ int fix[5];
 #include "GetFourCubes.c"
 #include "GetWhiteCube.c"
 #include "GetSmallShip.c"
-//#include "GetSmallShipToBlackSea.c"
+#include "GetSmallShipToBlackSea.c"
 #include "DamatebitiFunqciebi2dgistvis.c"
 #include "park.c"
 
