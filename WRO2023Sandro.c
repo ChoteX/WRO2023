@@ -98,7 +98,7 @@ fuelAndReadCubes();
 		displayBigTextLine(1, colors[0]);
 }*/
 	//sleep(1000);
-	//chagdeba();
-	//mate();
-	//move_straight(100, 40);
+	chagdeba();
+	mate();
+	move_straight(100, 40);
 }
