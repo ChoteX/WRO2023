@@ -69,7 +69,7 @@ PID_set(&new_line_follower, 0.35, 0.0003, 1.2, 0.5, 37); //0.45 0.5//old
 PID_set(&dif_lf, 0.15, 0.000005, 0.2, 0.5, 27);
 PID_set(&blue_lf, 0.35, 0.0005, 1.2, 0.5, 33);
 PID_set(&fast_line_follower, 0.6, 0, 0.18, 0.0003, 36);
-twoColors[0]="green"; twoColors[1]="green"
+twoColors[0]="green"; twoColors[1]="green";
 
 changeSide(1);
 fuelAndReadCubes();
@@ -82,10 +82,10 @@ moveToFourCubes();
 getFourCubes();
 getWhiteCube();
 
-getSmallShipToBlackSea();
+getSmallShipToBlackSea();   //changed to moving both ships at the same time
 	
-chayra();
-mate();
+chayra(); //unloading the cubes
+mate();   //go to parking
 	
 	
 }
